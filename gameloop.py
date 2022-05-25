@@ -4,9 +4,6 @@ name = input("Hi! What is your name? ")
 
 # Guess 1
 
-month_number = randint(1, 12)
-year_number = randint(1924, 2004)
-
 guesses = range(1, 6)
 for x in guesses:
     month_number = randint(1, 12)
